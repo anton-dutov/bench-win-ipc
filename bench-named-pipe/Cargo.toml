@@ -1,0 +1,8 @@
+[package]
+name    = "bench-named-pipe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../bench-common" }
+tokio  = { version = "1", features = ["rt-multi-thread"] }

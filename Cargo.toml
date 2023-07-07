@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "bench-common",
+    "bench-named-pipe",
+    "bench-tcp",
+]
